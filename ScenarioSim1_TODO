@@ -1,0 +1,45 @@
+Utilizes similar code to the node covering
+
+Parameters determining degradation of power
+* Distance
+* Congestion (Capacity of the line)
+* Voltage the line is rated for
+* Line temperature
+
+Parameters determining the generation of power
+* Location/Time Zone [x]
+    - Day and night cycles [x]
+* Size of panel
+* Efficiency [x]
+* Storage Capacity
+
+Parameters affiliated with agent
+* Consumption
+* Production --> Refer to the parameters determining generation of power
+* Bank Account
+* Pricing Psychology
+
+The Agents {Generation, Consumption}
+- Commercial (BLUE)
+     {
+- Residential (GREEN)
+
+
+
+Day is divided into 3 parts. Morning - Midday - Night
+
+Financial
+* Cost per KwH
+*
+
+Demand curves taken from
+https://openei.org/datasets/files/961/pub/COMMERCIAL_LOAD_DATA_E_PLUS_OUTPUT/
+Solar generation curve taken from
+
+TIMEZONES - Dependent on location | t   | t+2 |
+                                  | t+4 | t+6 |
+Current system requires the frequent updating of all values
+the agents
+
+
+https://www.desmos.com/calculator/hbvecki45z
